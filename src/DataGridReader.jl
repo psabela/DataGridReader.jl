@@ -1,5 +1,8 @@
 module DataGridReader
 
-# Write your package code here.
+export Excel
+
+include("Excel.jl")
+using .Excel   
 
 end
